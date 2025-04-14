@@ -5,7 +5,7 @@ h1,h2,h3,p
 {
     color: white;
 }
-.david-christie-main-heading
+.adhil-main-heading
 {
     color: white;
     font-size: 10em;
@@ -91,7 +91,9 @@ h1,h2,h3,p
     height: 0.2vh;
 }
 
-
+.blue-green-shade{
+    background-color: #369267;
+}
 #toast-container
 {
     top: auto !important;
