@@ -103,3 +103,20 @@ h1,h2,h3,p
     -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
+img {
+    -webkit-filter: brightness(100%);
+    border-radius: 3px;
+}
+.image-wrapper{
+    padding: 3px;
+    border-radius: 3px;
+}
+
+img:hover {
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
